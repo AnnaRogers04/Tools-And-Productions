@@ -1,4 +1,4 @@
-# Task Title
+# Tool Ideation
 
 ---
 
@@ -59,3 +59,26 @@
 - Work reflects your own understanding and professional practice  
 
 ---
+
+
+
+
+
+glossary on myuca
+
+
+Pipelines:
+
+A pipeline is a clear, multi-stage, structured process thats used to intergrate assets such as textures, 3d models, audio etc into a final playable version of a game. Its designed to be really efficant and helps streamline game making process, along with this it also contrbutes to the quality of the final product as well (Content Pipeline, s.d.).
+
+Content Pipeline (s.d.) At: https://www.larksuite.com/en_us/topics/gaming-glossary/content-pipeline (Accessed  04/02/2026).
+
+
+Services in Games Development:
+
+
+
+
+Gamepad Compatibility:
+
+A gamepad is a handheld controller like a playstation or xbox controller. Other devices such as a steamdeck also use gamepads. This allows players to use more than just the standard keyboard and mouse for the game and will appeal to a larger audience. In order to make it compatible for a game 
