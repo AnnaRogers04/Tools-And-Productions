@@ -3,6 +3,12 @@
 ---
 
 ## 1. Introduction (≈150 words)
+I Was asked to make sure the UI was gamepad compatible
+
+
+
+
+
 
 - Briefly describe the task you were asked to complete  
 - Explain your reasoning and overall approach  
@@ -11,6 +17,9 @@
 ---
 
 ## 2. Implementation (≈200 words)
+
+
+
 
 - Describe the tools, engine, language, or framework used  
 - Explain how you approached the task technically  
