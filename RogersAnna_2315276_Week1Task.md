@@ -1,19 +1,10 @@
 # Tool Ideation
-
+Week 1 and 2
 ---
 
 ## 1. Introduction (≈150 words)
-I Was asked to make sure the UI was gamepad compatible
-
-
-
-
-
-
-- Briefly describe the task you were asked to complete  
-- Explain your reasoning and overall approach  
-- Outline why this task is relevant or important in a professional or technical context  
-
+I Was asked to make sure the UI was gamepad compatible and the controls were fully mapped. I decided to remove any Inupts and IMCs already preset in unreal and start from nothing, this way I had complete comtrol over what was mapped and what it was mapped to. Alongside this i also made prefabs that could be used to help make UI. If this is made into a plugin then this would become a useful tool for developers looking to have complete control over the controls. Its also set up with a test UI where the controls are set up and already working.
+ 
 ---
 
 ## 2. Implementation (≈200 words)
@@ -52,6 +43,25 @@ I Was asked to make sure the UI was gamepad compatible
 - If used, name the tool(s) and describe how they were used  
 
 ---
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 ## Submission Notes & Checklist
 
