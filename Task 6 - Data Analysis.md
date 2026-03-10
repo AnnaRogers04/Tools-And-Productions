@@ -109,7 +109,7 @@ Several distributions appear exclusively in the 2026 data (Linux Mint 22.3, Ubun
 
 ## 10. macOS Versions: 2022 vs 2026
 
-<img width="2400" height="1000" alt="image" src="https://github.com/user-attachments/assets/1bd0aa12-784d-4938-a6c5-d315ecb9c6d6" />
+<img width="2800" height="1000" alt="image" src="https://github.com/user-attachments/assets/06587eb0-382d-4a70-a5ca-a2de892bc5f9" />
 
 Most macOS 12.x versions from 2022 have largely disappeared by 2026, replaced by newer macOS 26.x and 15.x entries. The overall macOS share decline (−1.02 pp) suggests that macOS gamers may be shifting to other platforms, or that Apple's move to ARM (M-series chips) created a temporary compatibility gap with Steam games.
 
@@ -117,7 +117,8 @@ Most macOS 12.x versions from 2022 have largely disappeared by 2026, replaced by
 
 ## 11. Linux & macOS Share – Zoomed Comparison
 
-<img width="2800" height="1000" alt="image" src="https://github.com/user-attachments/assets/06587eb0-382d-4a70-a5ca-a2de892bc5f9" />
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/6aa9380f-3364-439d-8ed8-5345f7405112" />
+
 
 This zoomed view isolates the non-Windows platforms. The crossover is striking: in 2022, macOS (2.18 %) was **nearly 4× larger** than Linux (0.56 %). By 2026, **Linux (2.23 %) has overtaken macOS (1.16 %)**, reversing the historical relationship. This is likely driven by the Steam Deck's Arch-based SteamOS and Valve's continued investment in Proton.
 
