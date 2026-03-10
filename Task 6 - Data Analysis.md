@@ -18,7 +18,7 @@ Data cleaning applied: corrupted `Category` values were corrected by inferring t
 
 ## 1. OS Family Market Share
 
-![OS Family Market Share](os_family_market_share.png)
+<img width="1600" height="1000" alt="image" src="https://github.com/user-attachments/assets/87e3a0d0-7364-4c80-9603-758a9468a04f" />
 
 **Windows** commands an overwhelming **96.61 %** of the Steam ecosystem. **Linux** follows at **2.23 %**, slightly ahead of **macOS** at **1.16 %**. Together, non-Windows platforms account for roughly **3.4 %** of all Steam users — a small but non-trivial audience for cross-platform development.
 
