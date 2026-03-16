@@ -21,8 +21,7 @@ The menu system is built around a **Widget Switcher** pattern with **state-based
 
 ## Player Controller: PC_GreedyPiggies
 
-![1773601406617_image](https://github.com/user-attachments/assets/dc69e657-dda2-44fa-ae26-096686e5218c)
-
+![PC_GreedyPiggies Configuration](1773601311185_image.png)
 *Player Controller showing all configured classes and the isolated architecture*
 
 **Responsibilities:**
@@ -44,8 +43,8 @@ This controller is intentionally separated from game logic to make integration i
 
 ## Game Mode: GM_Greedy Piggies
 
-![1773601249184_image (2)](https://github.com/user-attachments/assets/42df4e25-2fd6-4217-bc81-2f6501bdadb7)
-
+![Game Mode Setup](1773601249184_image.png)
+*Game mode configuration with all class references*
 
 **Configuration:**
 - **HUD Class**: Custom HUD managing menu state
@@ -56,11 +55,18 @@ This controller is intentionally separated from game logic to make integration i
 
 ## HUD Widget System
 
-The HUD uses E_MenuState enum to control logic and a Widget Switcher UMG component to visually display menus:
+The HUD contains a **Widget Switcher** that controls which menu is visible:
 
-
-![1773601480974_image](https://github.com/user-attachments/assets/cf385a89-ae9a-4a6d-a481-3540fd6837ec)
-
+```
+HUD Structure:
+├── Canvas Panel
+│   ├── Widget Switcher (Index 0-3)
+│   │   ├── 0: WBP_TestMenu (Pause menu)
+│   │   ├── 1: WBP_OptionsMenu (Settings)
+│   │   ├── 2: WBP_ControlsMenu (Key rebinding)
+│   │   └── Hidden: None (game running)
+│   └── Focus Management System
+```
 
 **Core Variables:**
 - `CurrentMenuState` (E_MenuState enum) - Single source of truth
@@ -166,8 +172,8 @@ Result: Atomic menu state changes with proper input/focus management
 
 ### Input Actions
 
-![1773601793471_image](https://github.com/user-attachments/assets/46a61f82-4913-48a5-b4e7-baa8623a7833)
-
+![Input Actions Overview](1773601148037_image.png)
+*All 14 input actions with consistent naming and configuration*
 
 14 total input actions:
 - **4 Face Buttons**: A, B, X, Y
@@ -185,7 +191,8 @@ Unlike other actions, pause is configured differently:
 
 ### Input Mapping Context (IMC_GamePad)
 
-![1773601802726_image](https://github.com/user-attachments/assets/10fa23f7-538b-4441-a735-67078d4cb73e)
+![IMC GamePad](1773601155893_image.png)
+*All input actions organized in single mapping context*
 
 All 14 actions organized in `IMC_GamePad` context. This allows:
 - Centralized input configuration
@@ -240,7 +247,8 @@ Result: No duplicate keys possible - validation is atomic
 
 ### Why RefreshAll Was Removed from Binding 2
 
-![1773607242245_image](https://github.com/user-attachments/assets/aed9a71b-886d-4905-94b5-a1fee190bc80)
+![Why RefreshAll Was Removed from Binding 2](1773607242245_image.png)
+*Template showing exact structure, flow, and reasoning*
 
 #### Binding 2 (Secondary/Modifier Key) WITHOUT RefreshAll:
 
@@ -482,7 +490,17 @@ Controls Menu
 
 ### Pause Menu
 
-![1773603250484_image](https://github.com/user-attachments/assets/2823bbdd-cc41-4511-855e-94dde3613072)
+```
+┌─────────────────────────────────────┐
+│      [Blurred Game Behind]          │
+│                                     │
+│             PAUSED                  │
+│                                     │
+│         [Resume Button] ← Focused   │
+│         [Options Button]            │
+│         [Quit Button]               │
+│                                     │
+└─────────────────────────────────────┘
 
 Visual Style:
 - Background: Semi-transparent blur
@@ -491,18 +509,41 @@ Visual Style:
 - Focus Indicator: Checkmark icon on left
 - Gamepad Navigation: D-pad up/down
 - Mouse Interaction: Click buttons directly
-
+```
 
 ### Controls Menu
 
-![1773603283466_image](https://github.com/user-attachments/assets/6c553977-713f-40bf-ac02-a835b79b2b35)
-
-![1773603440279_image](https://github.com/user-attachments/assets/3249b39f-f187-445b-bcd8-cc15964c8e20)
+```
+┌──────────────────────────────────────────────────────┐
+│                    CONTROLS                          │
+│  Key Bindings                                        │
+├──────────────────────────────────────────────────────┤
+│ Select/Play Card                                     │
+│ ⚠️   ☐   [Gamepad Face Button Bottom] [No Input]   │
+│                                                      │
+│ Inspect Card                                         │
+│      ☐   [Gamepad Face Button Left]  [No Input]    │
+│                                                      │
+│ End Turn                                             │
+│      ☐   [Gamepad Face Button Top]   [No Input]    │
+│                                                      │
+│ Back Button                                          │
+│      ☐   [Gamepad Face Button Right] [No Input]    │
+│                                                      │
+│ Move                                                 │
+│      ☐   [Gamepad Left Thumbstick]   [No Input]    │
+│                                                      │
+│ Look                                                 │
+│      ☐   [Gamepad Right Thumbstick]  [No Input]    │
+│                                                      │
+│ [Reset Inputs]                        [Back]        │
+└──────────────────────────────────────────────────────┘
 
 Legend:
-Yellow Box = Unmapped Input
-White button = visible when differs from default, allows you to reset that input only
-Red button = Always vidible, Resets the whole row.
+⚠️  = Yellow warning (unmapped input)
+🔴 = Red warning (duplicate detected)
+☐  = White reset button (visible when differs from default)
+🔴 = Red clear button (always visible)
 
 Visual Style:
 - Scrollable list with auto-scroll on focus
@@ -510,7 +551,7 @@ Visual Style:
 - Dual key slots (primary + secondary/modifier)
 - Clear visual hierarchy
 - Focus highlighting with movement indicators
-
+```
 
 ## Input Binding Widget Layout
 
