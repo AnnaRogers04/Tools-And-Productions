@@ -8,6 +8,7 @@ For this task, I prototyped an engine plugin in Unreal Engine 5.6.1, focusing on
 I chose this because UI navigation with both keyboard and controller input can become messy in Unreal, especially in UI-heavy projects. Developers often have to set this up manually, and it doesn’t always behave consistently. This system was designed for a PC game that will be released on Steam, so I also needed to consider how Unreal’s input system integrates with external platforms such as the Steam API. It makes use of the Enhanced Input system, including Input Mapping Contexts and related data.
 
 The main aim was to create something reusable that could simplify controller-based UI navigation and improve the overall user experience. While I wasn’t able to complete the full plugin or implement advanced input remapping features, I did develop a working prototype that demonstrates the core concept.
+
 ---
 
 ## 2. Implementation 
