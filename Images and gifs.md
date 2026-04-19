@@ -33,12 +33,4 @@
 <img width="1351" height="804" alt="Screenshot 2026-02-04 190324" src="https://github.com/user-attachments/assets/5871fb0e-80be-4238-b4f4-d5a446dfab45" />
 
 
-Gamepad/UI:
 
-file:///mnt/user-data/outputs/1773601249184_image.png
-file:///mnt/user-data/outputs/1773601311185_image.png
-file:///mnt/user-data/outputs/1773601148037_image.png
-file:///mnt/user-data/outputs/1773601155893_image.png
-file:///mnt/user-data/outputs/1773601406617_image.png
-file:///mnt/user-data/outputs/1773601701088_image.png
-file:///mnt/user-data/outputs/1773607242245_image.png
