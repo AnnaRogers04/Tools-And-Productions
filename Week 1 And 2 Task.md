@@ -23,7 +23,7 @@ In addition, controller input works correctly inside Unreal, but does not always
 
 ---
 
-## 3. Outcome (≈150 words)
+## 3. Outcome 
 
 The final outcome was a working prototype for controller-based UI navigation in Unreal Engine. Players are able to open menus, move through different options, and interact with UI elements using a gamepad.
 
@@ -45,6 +45,7 @@ If I were to continue developing this project, I would focus on finishing the in
 
 ## 5. AI Usage Declaration
 
+Chatgbt 5.4 was used to help structre this writeup.
 
 ---
 

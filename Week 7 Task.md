@@ -30,3 +30,16 @@ mermaid
 
 ## 7. Production Support Considerations
 Overall, this system is a strong foundation for menu management and controller support. To use it in a full production environment, it would need regular testing, stable source control, build automation, and continued maintenance for platform compatibility and input support. If the project later includes online features, extra backend services and support costs would also need to be considered.
+
+---
+
+## 4. Bibliography
+
+- List all external sources used (documentation, tutorials, articles, etc.)  
+- Use the universities referencing style
+
+---
+
+## 5. AI Usage Declaration
+
+Chatgbt 5.4 was used to help structre this writeup and create a mermaid diagram.
