@@ -17,6 +17,8 @@ The hardware needed for this system is quite basic. It would require a PC that c
 | Monthly running costs | £20 to £100 per month | £50 to £200 per month | £100 to £500+ per month |
 | What this includes | Testing hardware, software tools, development setup, storage, backups, and build services | Standard development costs plus basic server hosting, simple backend tools, and small scale online support | All standard development costs plus dedicated server hosting, backend services, networking support, cloud storage, and live maintenance |
 
+(Dedicated Game Server Hosting - Amazon GameLift Pricing - Amazon Web Services, s.d.), (Jorri, 2023)
+
 The Widget Switcher system by itself is low cost to support. A small indie multiplayer version could still be affordable, but a full multiplayer setup would cost more because of server hosting, backend systems, and ongoing maintenance.
 
 ## 5. Target Platforms
@@ -34,6 +36,10 @@ Overall, this system is a strong foundation for menu management and controller s
 
 ---
 
-## 5. AI Usage Declaration
+## Bibliography
+- Dedicated Game Server Hosting - Amazon GameLift Pricing - Amazon Web Services (s.d.) At: [https://aws.amazon.com/gamelift/servers/pricing/](https://aws.amazon.com/gamelift/servers/pricing/) (Accessed  23/04/2026).
+- Jorri, T. (2023) Your Comprehensive Guide To Mobile Game Server Costs [Updated for 2026]. At: https://www.metaplay.io/blog/mobile-game-server-costs (Accessed  23/04/2026).
+
+## AI Usage Declaration
 
 Chatgbt 5.4 was used to help structre this writeup and create a mermaid diagram.
