@@ -8,7 +8,7 @@
 
 **Total Word Count:** \ [2895]
 
-**API Reference Link:** \ [https://annarogers04.github.io/WidgetSwitcher-API/](https://annarogers04.github.io/WidgetSwitcher-API/)
+**API Reference Link:** \ [https://github.com/AnnaRogers04/WidgetSwitcher-API](https://github.com/AnnaRogers04/WidgetSwitcher-API)
 
 **Build Link:** [https://store.steampowered.com/app/4463930/Greedy_Piggies/](https://store.steampowered.com/app/4463930/Greedy_Piggies/)
 
