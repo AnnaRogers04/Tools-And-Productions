@@ -12,6 +12,8 @@
 
 **Build Link:** [https://store.steampowered.com/app/4463930/Greedy_Piggies/](https://store.steampowered.com/app/4463930/Greedy_Piggies/)
 
+**Game Repo:** [https://github.com/University-for-the-Creative-Arts/Greedy_Piggies](https://github.com/University-for-the-Creative-Arts/Greedy_Piggies)
+
 **Video Demonstration Link:** [https://youtu.be/pE07HoSPoLs](https://youtu.be/pE07HoSPoLs)
 
 ---
