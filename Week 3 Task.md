@@ -6,12 +6,12 @@
 
 For this task, I evaluated my controller UI navigation system from a networking, security, and compliance perspective. It was originally built in Unreal Engine as a local system for navigating menus with a controller.
 
-The system does not handle or store any personal data, so it does not raise any GDPR concerns in its current form. The current implementation only manages UI navigation, and features that would require storing user data, such as input remapping, are not included in the final build. If these features were added in the future, appropriate data handling and security measures would be required.
+The system does not handle or store any personal data, so it does not raise any GDPR concerns in its current form. The current implementation only manages UI navigation, and features that would require storing user data, such as input remapping, are not included in the final build. If these features were added in the future, appropriate data handling and security measures would be required. (UK GDPR guidance and resources, 2026)
 
 ---
 
 ## 2. Implementation 
-The system currently runs locally, but adding networking could allow UI settings or input data to be shared or stored externally. This could introduce risks such as data being accessed or changed, or incorrect data causing issues with the UI. There is also a risk of misuse if the system is set up incorrectly.
+The system currently runs locally, but adding networking could allow UI settings or input data to be shared or stored externally. This could introduce risks such as data being accessed or changed, or incorrect data causing issues with the UI. There is also a risk of misuse if the system is set up incorrectly. (A guide to data security, 2025)
 
 To reduce these risks, things like encryption and access control would be needed. Logging could also help track changes. A client–server setup could be used to check data, but this would add complexity and isn’t needed for the core system.
 
@@ -27,14 +27,12 @@ The system works safely as a local tool and does not introduce any GDPR or secur
 
 The current design also separates UI behaviour from gameplay systems, which reduces the risk of unintended changes and makes the system easier to maintain if it is expanded in the future.
 
-**Demonstration video link:**  
-
 ---
 
 ## 4. Bibliography
+- A guide to data security (2025) At: [https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/security/a-guide-to-data-security/) (Accessed  23/04/2026).
 
-- List all external sources used (documentation, tutorials, articles, etc.)  
-- Use the universities referencing style
+- UK GDPR guidance and resources (2026) At: [https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/](https://ico.org.uk/for-organisations/uk-gdpr-guidance-and-resources/) (Accessed  23/04/2026).
 
 ---
 

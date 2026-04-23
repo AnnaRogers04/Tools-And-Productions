@@ -25,17 +25,12 @@ The target platform for this system is PC. Players can use keyboard and mouse or
 ## 6. How the System Works
 The Widget Switcher works by taking player input and passing it to the Player Controller. The controller checks the current menu state, removes the old widget, creates the new menu widget, and updates the input mode, cursor visibility, and gamepad focus. This allows the player to move cleanly between gameplay and menu screens.
 
-mermaid
-<img width="2405" height="2526" alt="image-1" src="https://github.com/user-attachments/assets/f5a08725-7e17-4308-a21e-10675acb8dba" />
+### mermaid
+
+<img width="625" height="590" alt="image-1" src="https://github.com/user-attachments/assets/f5a08725-7e17-4308-a21e-10675acb8dba" />
+
 ## 7. Production Support Considerations
 Overall, this system is a strong foundation for menu management and controller support. To use it in a full production environment, it would need regular testing, stable source control, build automation, and continued maintenance for platform compatibility and input support. If the project later includes online features, extra backend services and support costs would also need to be considered.
-
----
-
-## 4. Bibliography
-
-- List all external sources used (documentation, tutorials, articles, etc.)  
-- Use the universities referencing style
 
 ---
 
