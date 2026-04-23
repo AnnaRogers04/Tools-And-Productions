@@ -8,7 +8,7 @@
 
 **Total Word Count:** \ [2895]
 
-**API Reference Link:** \ [https://github.com/AnnaRogers04/WidgetSwitcher-API](https://github.com/AnnaRogers04/WidgetSwitcher-API)
+**API Reference Link:** \ [https://annarogers04.github.io/WidgetSwitcher-API/](https://annarogers04.github.io/WidgetSwitcher-API/)
 
 **Build Link:** [https://store.steampowered.com/app/4463930/Greedy_Piggies/](https://store.steampowered.com/app/4463930/Greedy_Piggies/)
 
@@ -115,7 +115,7 @@ My work on the project focused on the menu and UI side, especially controller co
 
 One of the main things I worked on was creating controller focus for the menus. This mattered because the UI could look correct visually but still feel awkward to use if the focus was not clear. I had to think about which button should be selected first, how focus would move between options, and how to make that easy for the player to follow.
 
-![alt text](<Screenshot 2026-04-23 011314.png>)
+<img width="750" height="299" alt="image" src="https://github.com/user-attachments/assets/45634914-c6e0-4cb5-82ef-a32738b80ee8" />
 
 _**Figure 1**:** Shows the code used to focus each widget. The code was set on a specific button to gain original focus from and this then allowed gamepad to work._
 
@@ -131,7 +131,7 @@ _**Figure 2:** Shows a simplifed version of the widget swicther code, Its done i
 
 As the work developed, I also spent time improving controller compatibility more generally. This meant checking whether menus could actually be navigated properly, whether focus stayed where it needed to, and whether the player could move through the UI without getting stuck. A lot of this came from trial and error rather than from a fixed plan at the start. Some parts worked quickly, while others only improved once I had tested them in engine and seen how they behaved in practice.
 
-![alt text](<ezgif.com-video-to-gif-converter (15).gif>)
+<img width="800" height="450" alt="image" src="https://github.com/user-attachments/assets/ad630e29-e1e0-4e87-927f-e599ddd61d84" />
 
 _**Figure 3:** Shows a snippet of me testing the controls in engine and making sure the widget focus is working correctly as well as the widget switcher. This made sure controller navigation was working smoothly._
 
@@ -148,7 +148,7 @@ One of the main things I tried was making the UI work properly with controller i
 
 I also tried building a controls remap system. This was more experimental for me because it was something I had not built before, and it meant following a tutorial while adapting it to my own project. I managed to get parts of it working, but in the end I had to remove it because I would not have been able to fix it properly in time. Even though it did not stay in the final version, it still changed my approach because it made me more aware of how version differences in Unreal can affect systems like Enhanced Input.
 
- ![alt text](<Screenshot 2026-04-11 145021.png>)
+<img width="2274" height="1212" alt="image" src="https://github.com/user-attachments/assets/b0ecea9a-9dfb-4881-99f0-4ba1a816cf41" />
 
 _**Figure 4:** Shows a verson of the controls menu where gamepad and keyboard and mouse inputs werre possible but it was repeating inputs for no reason._
 
@@ -165,8 +165,8 @@ Caption: Figure X: Testing controller focus and menu navigation in the pause men
 
 The remap system caused the biggest issue. I followed a tutorial for it, but the video was made for an older version of Unreal, while this project was made in Unreal Engine 5.6.1. Because of that, parts of the Enhanced Input setup were noticeably different, and this started causing conflicts once I had added all the controls into the Input Mapping Context. I spent time trying to work around it, but eventually I had to remove the feature because I was not going to be able to fix it properly before the deadline.
 
-![alt text](<Screenshot 2026-04-11 041821.png>)
-![alt text](<Screenshot 2026-04-11 040753.png>)
+<img width="2224" height="1203" alt="image" src="https://github.com/user-attachments/assets/e96f77c3-c739-410b-a1f6-a79b01c77d6e" />
+<img width="2275" height="1212" alt="image" src="https://github.com/user-attachments/assets/ae0c1ea3-dedf-44b4-a2f7-21e07604f3d1" />
 
 _**Figure 5 and 6:** Shows when the controls menu broke and the inputs either werent showing up, they were reapeating or half showing half not._
 
@@ -187,7 +187,7 @@ I also tested the build through Steam, because it needed to work properly there 
 
 Part of the testing involved checking how the pause menu behaved in the actual scene rather than on its own. This was important because the menu needed to feel like part of the game while it was running, not just like a separate UI element.
 
-![alt text](<Screenshot 2026-04-09 141655.png>)
+<img width="2852" height="1501" alt="image" src="https://github.com/user-attachments/assets/0933fbc1-d9d1-4113-a6ff-55bb303d9344" />
 
 _**Figure 7:** Shows me testing the game in engine after setting up the widget switcher properly, as shown the pause menu shows on the character select menu which is the lobby, this was not planned and shouldnt have happened._
 
@@ -227,7 +227,7 @@ Overall, testing helped keep the focus on the parts of the system that were stro
 | Steam controller support | Build testing    | Whether controller input worked properly through Steam        | Controller currently does not work properly in Steam | Marked as an issue that still needs fixing  |
 
 
-**Figure X:** Testing summary for controller focus, menu navigation, widget switching, and Steam controller support.
+**Figure 8:** Testing summary for controller focus, menu navigation, widget switching, and Steam controller support.
 
 ---
 # Critical Reflection 
